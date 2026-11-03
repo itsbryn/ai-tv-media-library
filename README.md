@@ -1,0 +1,12 @@
+# 用 AI 改造旧电视：个人网盘影视库实践
+
+一次真实设备改造：通过 Aerial 整理旧电视桌面，在电视上运行 AListLite / OpenList，将自己的夸克网盘通过 WebDAV 接入网易爆米花。
+
+`个人网盘 → 电视上的 OpenList → WebDAV → 网易爆米花`
+
+本案例由星沉系与 AI 协作完成。用户负责选择、登录和授权；AI 协助设备检查、安装、故障定位和验证。Aerial、AListLite、OpenList、夸克及网易爆米花均为第三方产品。
+
+- [可复用教程](TUTORIAL.md)
+- [星沉系案例页面](https://xingchenxi.ai/cases/ai-tv-media-library/)
+
+本次在一台 Android 6 小米电视验证了夸克目录读取、WebDAV 读取及用户完成媒体库接入。真实冷启动、长待机、长期播放稳定性和其他设备兼容性尚未验证。只使用你有权访问的内容，保护账号、令牌和本地网络。
